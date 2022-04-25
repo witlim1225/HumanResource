@@ -13,6 +13,19 @@
 		433FC4B82815641E00513EFD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 433FC4B62815641E00513EFD /* Main.storyboard */; };
 		433FC4BA2815641F00513EFD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 433FC4B92815641F00513EFD /* Assets.xcassets */; };
 		433FC4BD2815641F00513EFD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 433FC4BB2815641F00513EFD /* LaunchScreen.storyboard */; };
+		433FC4C62815642C00513EFD /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 433FC4C52815642C00513EFD /* libsqlite3.tbd */; };
+		433FC4D42815645800513EFD /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 433FC4C92815645700513EFD /* FMDatabaseQueue.m */; };
+		433FC4D52815645800513EFD /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = 433FC4CB2815645700513EFD /* FMDatabasePool.m */; };
+		433FC4D62815645800513EFD /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 433FC4CC2815645700513EFD /* FMDatabaseAdditions.m */; };
+		433FC4D72815645800513EFD /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 433FC4D12815645700513EFD /* FMResultSet.m */; };
+		433FC4D82815645800513EFD /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 433FC4D32815645800513EFD /* FMDatabase.m */; };
+		433FC4DA281565B800513EFD /* DepartmentListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 433FC4D9281565B800513EFD /* DepartmentListVC.swift */; };
+		433FC4DC281565D100513EFD /* EmployeeListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 433FC4DB281565D100513EFD /* EmployeeListVC.swift */; };
+		433FC4E02815668300513EFD /* DepartmentDAO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 433FC4DF2815668300513EFD /* DepartmentDAO.swift */; };
+		433FC4E228156C1400513EFD /* EmployeeDAO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 433FC4E128156C1400513EFD /* EmployeeDAO.swift */; };
+		433FC4E42815A73000513EFD /* DepartPickerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 433FC4E32815A73000513EFD /* DepartPickerVC.swift */; };
+		433FC4E6281621BC00513EFD /* DepartmentInfoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 433FC4E5281621BC00513EFD /* DepartmentInfoVC.swift */; };
+		433FC4E82816340100513EFD /* hr.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = 433FC4E72816340100513EFD /* hr.sqlite */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +37,26 @@
 		433FC4B92815641F00513EFD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		433FC4BC2815641F00513EFD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		433FC4BE2815641F00513EFD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		433FC4C52815642C00513EFD /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		433FC4C82815645700513EFD /* HumanResource-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HumanResource-Bridging-Header.h"; sourceTree = "<group>"; };
+		433FC4C92815645700513EFD /* FMDatabaseQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseQueue.m; sourceTree = "<group>"; };
+		433FC4CA2815645700513EFD /* FMDatabaseQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseQueue.h; sourceTree = "<group>"; };
+		433FC4CB2815645700513EFD /* FMDatabasePool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabasePool.m; sourceTree = "<group>"; };
+		433FC4CC2815645700513EFD /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseAdditions.m; sourceTree = "<group>"; };
+		433FC4CD2815645700513EFD /* FMDatabasePool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabasePool.h; sourceTree = "<group>"; };
+		433FC4CE2815645700513EFD /* FMDB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDB.h; sourceTree = "<group>"; };
+		433FC4CF2815645700513EFD /* FMResultSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMResultSet.h; sourceTree = "<group>"; };
+		433FC4D02815645700513EFD /* FMDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabase.h; sourceTree = "<group>"; };
+		433FC4D12815645700513EFD /* FMResultSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMResultSet.m; sourceTree = "<group>"; };
+		433FC4D22815645800513EFD /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseAdditions.h; sourceTree = "<group>"; };
+		433FC4D32815645800513EFD /* FMDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabase.m; sourceTree = "<group>"; };
+		433FC4D9281565B800513EFD /* DepartmentListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DepartmentListVC.swift; sourceTree = "<group>"; };
+		433FC4DB281565D100513EFD /* EmployeeListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeeListVC.swift; sourceTree = "<group>"; };
+		433FC4DF2815668300513EFD /* DepartmentDAO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DepartmentDAO.swift; sourceTree = "<group>"; };
+		433FC4E128156C1400513EFD /* EmployeeDAO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeeDAO.swift; sourceTree = "<group>"; };
+		433FC4E32815A73000513EFD /* DepartPickerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DepartPickerVC.swift; sourceTree = "<group>"; };
+		433FC4E5281621BC00513EFD /* DepartmentInfoVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DepartmentInfoVC.swift; sourceTree = "<group>"; };
+		433FC4E72816340100513EFD /* hr.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = hr.sqlite; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +64,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				433FC4C62815642C00513EFD /* libsqlite3.tbd in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,8 +74,10 @@
 		433FC4A42815641E00513EFD = {
 			isa = PBXGroup;
 			children = (
+				433FC4C72815643600513EFD /* fmdb */,
 				433FC4AF2815641E00513EFD /* HumanResource */,
 				433FC4AE2815641E00513EFD /* Products */,
+				433FC4C42815642C00513EFD /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,11 +96,45 @@
 				433FC4B22815641E00513EFD /* SceneDelegate.swift */,
 				433FC4B42815641E00513EFD /* ViewController.swift */,
 				433FC4B62815641E00513EFD /* Main.storyboard */,
+				433FC4E5281621BC00513EFD /* DepartmentInfoVC.swift */,
+				433FC4D9281565B800513EFD /* DepartmentListVC.swift */,
+				433FC4DB281565D100513EFD /* EmployeeListVC.swift */,
+				433FC4E128156C1400513EFD /* EmployeeDAO.swift */,
+				433FC4DF2815668300513EFD /* DepartmentDAO.swift */,
+				433FC4E32815A73000513EFD /* DepartPickerVC.swift */,
+				433FC4E72816340100513EFD /* hr.sqlite */,
 				433FC4B92815641F00513EFD /* Assets.xcassets */,
 				433FC4BB2815641F00513EFD /* LaunchScreen.storyboard */,
 				433FC4BE2815641F00513EFD /* Info.plist */,
 			);
 			path = HumanResource;
+			sourceTree = "<group>";
+		};
+		433FC4C42815642C00513EFD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				433FC4C52815642C00513EFD /* libsqlite3.tbd */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		433FC4C72815643600513EFD /* fmdb */ = {
+			isa = PBXGroup;
+			children = (
+				433FC4D02815645700513EFD /* FMDatabase.h */,
+				433FC4D32815645800513EFD /* FMDatabase.m */,
+				433FC4D22815645800513EFD /* FMDatabaseAdditions.h */,
+				433FC4CC2815645700513EFD /* FMDatabaseAdditions.m */,
+				433FC4CD2815645700513EFD /* FMDatabasePool.h */,
+				433FC4CB2815645700513EFD /* FMDatabasePool.m */,
+				433FC4CA2815645700513EFD /* FMDatabaseQueue.h */,
+				433FC4C92815645700513EFD /* FMDatabaseQueue.m */,
+				433FC4CE2815645700513EFD /* FMDB.h */,
+				433FC4CF2815645700513EFD /* FMResultSet.h */,
+				433FC4D12815645700513EFD /* FMResultSet.m */,
+				433FC4C82815645700513EFD /* HumanResource-Bridging-Header.h */,
+			);
+			path = fmdb;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -99,6 +169,7 @@
 				TargetAttributes = {
 					433FC4AC2815641E00513EFD = {
 						CreatedOnToolsVersion = 13.3.1;
+						LastSwiftMigration = 1330;
 					};
 				};
 			};
@@ -128,6 +199,7 @@
 				433FC4BD2815641F00513EFD /* LaunchScreen.storyboard in Resources */,
 				433FC4BA2815641F00513EFD /* Assets.xcassets in Resources */,
 				433FC4B82815641E00513EFD /* Main.storyboard in Resources */,
+				433FC4E82816340100513EFD /* hr.sqlite in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,9 +210,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				433FC4E228156C1400513EFD /* EmployeeDAO.swift in Sources */,
 				433FC4B52815641E00513EFD /* ViewController.swift in Sources */,
+				433FC4DA281565B800513EFD /* DepartmentListVC.swift in Sources */,
+				433FC4E02815668300513EFD /* DepartmentDAO.swift in Sources */,
+				433FC4E6281621BC00513EFD /* DepartmentInfoVC.swift in Sources */,
+				433FC4DC281565D100513EFD /* EmployeeListVC.swift in Sources */,
+				433FC4D42815645800513EFD /* FMDatabaseQueue.m in Sources */,
+				433FC4E42815A73000513EFD /* DepartPickerVC.swift in Sources */,
+				433FC4D72815645800513EFD /* FMResultSet.m in Sources */,
+				433FC4D52815645800513EFD /* FMDatabasePool.m in Sources */,
 				433FC4B12815641E00513EFD /* AppDelegate.swift in Sources */,
 				433FC4B32815641E00513EFD /* SceneDelegate.swift in Sources */,
+				433FC4D62815645800513EFD /* FMDatabaseAdditions.m in Sources */,
+				433FC4D82815645800513EFD /* FMDatabase.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -285,6 +368,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 48RM3UNKQU;
@@ -303,6 +387,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = TWLim.HumanResource;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "fmdb/HumanResource-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -313,6 +399,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 48RM3UNKQU;
@@ -331,6 +418,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = TWLim.HumanResource;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "fmdb/HumanResource-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
